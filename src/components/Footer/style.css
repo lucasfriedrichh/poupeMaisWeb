@@ -1,0 +1,24 @@
+/* footer.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  .content {
+    min-height: calc(100% - 60px); /* Ajuste o valor de 60px para a altura do footer */
+  }
+  
+  footer {
+    background-color: #1e1e2e;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  

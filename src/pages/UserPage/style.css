@@ -1,0 +1,12 @@
+@import url(../../colors.css);
+
+body{
+    background-color: var(--background-principal);
+}
+
+.custom-card {
+    background-color: var(--background-principal);
+    
+  }
+
+  
