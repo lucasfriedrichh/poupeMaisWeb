@@ -1,0 +1,3 @@
+const navigate = useNavigate();
+<Button variant="dark" onClick={() => navigate('/dashboard')}>Entrar</Button>
+export default function LoginPage() {
