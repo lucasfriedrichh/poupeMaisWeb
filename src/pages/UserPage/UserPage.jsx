@@ -24,14 +24,14 @@ function UserPage() {
     <>
     <Header />  
       <div className="content">
-        <Row>
+        <Row >
           <Col md="8">
           <Card className="custom-card">
             <CardHeader>
               <h5 className="title">Edit Profile</h5>
             </CardHeader>
             <CardBody>
-                <Form>
+                <Form >
                   <Row>
                     <Col className="pr-md-1" md="5">
                       <FormGroup>

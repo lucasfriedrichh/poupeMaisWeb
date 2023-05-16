@@ -1,7 +1,8 @@
 :root {
-    --background-principal: #1e1e2e;
-    --background-secondary: #27293d;
+    --background-principal: #27293d;
+    --background-secondary: #1e1e2e;
     --background-terciary: #4466a2;
+    --background-card: #27293d;
     --hover-gradient-start: #ff8d72;
     --hover-gradient-end: #ff6491;
     --pink: #d350da;
@@ -9,4 +10,5 @@
     --blue: #00ccd5;
     --purple-primary: #44006b;
     --white: #ffffff;
+    --text: #a6a6a6;
   }

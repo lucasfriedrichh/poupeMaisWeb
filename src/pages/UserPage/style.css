@@ -5,8 +5,16 @@ body{
 }
 
 .custom-card {
-    background-color: var(--background-principal);
-    
+    background-color: var(--background-card) !important;
+    color: var(--text);
   }
-
   
+  
+  .content{
+    background-color: var(--background-secondary);
+    padding: 15px;
+}
+
+#root {
+    min-height: 100vh;
+  }
