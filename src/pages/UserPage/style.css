@@ -1,20 +1,23 @@
 @import url(../../colors.css);
 
-body{
-    background-color: var(--background-principal);
+/* Defina o corpo do documento */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--background-secondary);
 }
 
-.custom-card {
-    background-color: var(--background-card) !important;
-    color: var(--text);
-  }
-  
-  
-  .content{
-    background-color: var(--background-secondary);
-    padding: 15px;
+/* Estilo para o conteúdo */
+.content {
+  flex: 1;
+  background-color: var(--background-secondary);
+  padding: 15px;
 }
 
-#root {
-    min-height: 100vh;
-  }
+.custom-card, .card-user {
+  background-color: var(--background-card) !important;
+  color: var(--text);
+}

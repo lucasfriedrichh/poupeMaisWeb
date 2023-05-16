@@ -22,7 +22,9 @@ import {
 function UserPage() {
   return (
     <>
-    <Header />  
+    <header>
+      <Header />  
+    </header>
       <div className="content">
         <Row >
           <Col md="8">
@@ -158,16 +160,10 @@ function UserPage() {
                   <div className="block block-two" />
                   <div className="block block-three" />
                   <div className="block block-four" />
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                    
-                    <h5 className="title">Mike Andrew</h5>
-                  </a>
-                  <p className="description">Ceo/Co-Founder</p>
+                  <h4 className="title">NOME</h4>
+                  <p className="description">DESCRIÇÃO</p>
                 </div>
-                <div className="card-description">
-                  Do not be scared of the truth because we need to restart the
-                  human foundation in truth And I love you like Kanye loves
-                  Kanye I love Rick Owens’ bed design but the back is...
+                <div className="card-description">DESCRICAO MAIOR
                 </div>
               </CardBody>
               <CardFooter>
@@ -187,7 +183,9 @@ function UserPage() {
           </Col>
         </Row>
       </div>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
