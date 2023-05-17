@@ -15,7 +15,9 @@ body {
   flex: 1;
   background-color: var(--background-secondary);
   padding: 15px;
+  margin-bottom: 50px; /* Ajuste a margem inferior para a altura do footer */
 }
+
 
 .custom-card, .card-user {
   background-color: var(--background-card) !important;

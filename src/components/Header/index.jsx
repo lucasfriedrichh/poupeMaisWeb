@@ -8,7 +8,7 @@ export default function Header() {
   const navigate = useNavigate();
   return (
     <Navbar variant="dark">
-      <Navbar.Brand href="#home">
+      <Navbar.Brand href="#home" onClick={() => navigate('/dashboard')} >
         <img
           src={logo}
           className="d-inline-block align-top logo"
@@ -21,7 +21,7 @@ export default function Header() {
         <Nav>
           <Nav.Link onClick={() => navigate('/dashboard')} >Home</Nav.Link>
           <Nav.Link onClick={() => navigate('/account')}>Conta</Nav.Link>
-          <Nav.Link>Investimentos</Nav.Link>
+          <Nav.Link onClick={() => navigate('/investment')}>Investimentos</Nav.Link>
         </Nav>
         <Nav className="ml-auto">
           <Nav.Link onClick={() => navigate('/')}>Sair</Nav.Link>
