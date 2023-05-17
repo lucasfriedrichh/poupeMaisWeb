@@ -1,0 +1,24 @@
+@import url(../../colors.css);
+
+body{
+    background-color: var(--background-secondary);
+}
+
+.content-elevated {
+    background-color: var(--background-secondary);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .content {
+    flex-grow: 1;
+  }
